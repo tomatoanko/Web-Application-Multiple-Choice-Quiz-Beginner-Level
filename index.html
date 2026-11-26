@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webアプリケーション開発4択クイズ:初級編</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap">
+  <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+  <div class="interface-start" id="startScreen">
+    <h1 id="title">Webアプリケーション開発4択クイズ:初級編</h1>
+    <h2 id="subTitle">~Web開発マスターへの道~</h2>
+    <div id="how2Play">
+      <h3 id="howToPlay">クイズの説明</h3>
+      <ul>
+        <li>HTML,CSS,JavaScriptなど、Web開発における知識について問います。</li>
+        <li>クイズを始めたら問題と4択の選択肢が出てくるので、正解だと思うものを選んでね!</li>
+        <li>問題は全部で10問あります。</li>
+        <li>製作者はWeb開発初心者です。気軽に挑戦してね!</li>
+      </ul>
+    </div>
+    <button id="startBtn">クイズを始める</button>
+  </div>
+
+  <div class="interface-quiz" id="quizScreen" style="display: none;">
+    <p id="questionNumber"></p>
+    <h2 id="questionText"></h2>
+    <button id="choice1" class="choiceBtn"></button>
+    <button id="choice2" class="choiceBtn"></button>
+    <button id="choice3" class="choiceBtn"></button>
+    <button id="choice4" class="choiceBtn"></button>
+    <div id="resultArea" style="display: none;">
+      <h2 id="judgeText"></h2>
+      <p id="answerText"></p>
+      <p id="explanationText"></p>
+      <button id="nextBtn"></button>
+    </div>
+  </div>
+
+  <div class="interface-result" id="resultScreen" style="display: none;">
+    <h2 id="finalResult">結果発表!</h2>
+    <p id="scoreText"></p>
+    <p id="scoreComment"></p>
+    <p>これからもWeb開発マスターを目指して一緒に勉強頑張りましょう!!</p>
+    <button id="restartBtn">再挑戦</button>
+  </div>
+
+  <script src="quiz-main.js"></script>
+</body>
+
+</html>
