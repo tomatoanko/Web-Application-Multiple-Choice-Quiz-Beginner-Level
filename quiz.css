@@ -1,0 +1,240 @@
+body {
+  background-color: #F1ECEB;
+  color: #363427;
+  font-family: "DotGothic16",sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 25px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#title {
+  background-color: #2F432F;
+  color: #F1ECEB;
+ padding: 16px 16px 16px 30px;
+  border-radius: 6px;
+}
+
+#subTitle {
+  background-color: #4C634C;
+  color: #F1ECEB;
+  border-radius: 6px;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+}
+
+#how2Play {
+  border: 2px solid #2F432F;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin: 20px;
+}
+
+#howToPlay{
+  background-color: #627962;
+  color: #F1ECEB;
+  border-bottom: 2px solid #2F432F;
+  padding: 10px 0 10px 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#startBtn {
+  background-color: #627962;
+  color: #F1ECEB;
+  font-family: "DotGothic16",sans-serif;
+  display: block;
+  font-size: 30px;
+  padding: 0 30px 0 30px;
+  border-radius: 30px;
+  margin:0 auto;
+  cursor: pointer;
+}
+
+#startBtn:hover {
+  background-color: #3E533E;
+  color: #F1ECEB;
+  font-family: "DotGothic16",sans-serif;
+  transform: scale(1.05);
+  display: block;
+  font-size: 30px;
+  padding: 0 30px 0 30px;
+  border-radius: 30px;
+  margin:0 auto;
+  cursor: pointer;
+}
+
+.choiceBtn {
+  background-color: #627962;
+  color: #F1ECEB;
+  font-family: "DotGothic16",sans-serif;
+  display: block;
+  width: 550px;
+  height: 65px;
+  font-size: 30px;
+  padding: 0 30px 0 30px;
+  border-radius: 6px;
+  margin: 30px auto;
+  cursor: pointer;
+}
+
+.choiceBtn:hover {
+  background-color: #3E533E;
+  color: #F1ECEB;
+  font-family: "DotGothic16",sans-serif;
+  display: block;
+  transform: scale(1.01);
+  font-size: 30px;
+  padding: 0 30px 0 30px;
+  border-radius: 6px;
+  margin: 30px auto;
+  cursor: pointer;
+}
+
+#questionNumber {
+  background-color: #2F432F;
+  color: #F1ECEB;
+  width: fit-content;
+  border-radius: 3px;
+  padding: 0 10px 0 10px;
+}
+
+#questionText {
+  border: 2px solid #2F432F;
+  background-color: #ffffff;
+  color: #2F432F;
+  border-radius: 6px;
+  box-sizing: border-box; 
+  width: 750px;
+  padding: 20px 43px 20px 43px;
+  margin: 0 0 60px 0;
+  word-break: auto-phrase;
+}
+
+#resultArea {
+  width: 750px;
+  box-sizing: border-box;
+  margin: 20px auto;
+  word-break: auto-phrase;
+}
+
+#judgeText {
+  font-size: 36px;
+  margin: 15px 0 12px 0;
+  text-align: center;
+  padding-left: 20px;
+}
+
+
+#answerText {
+  border: 2px solid #363427;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #2F432F;
+  font-size: 32px;
+  width: 100%;
+  width: fit-content;
+  padding: 14px 24px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+#explanationText {
+  border-left: 4px solid #2F432F;
+  padding-left: 16px;
+  margin: 0 43px 28px 43px; 
+  line-height: 1.6;
+}
+
+#nextBtn {
+  background-color: #627962;
+  color: #F1ECEB;
+  font-family: "DotGothic16",sans-serif;
+  display: block;
+  font-size: 30px;
+  padding: 0 30px 0 30px;
+  border-radius: 30px;
+  margin:0 auto;
+  cursor: pointer;
+}
+
+#nextBtn:hover {
+  background-color: #3E533E;
+  color: #F1ECEB;
+  font-family: "DotGothic16",sans-serif;
+  transform: scale(1.05);
+  display: block;
+  font-size: 30px;
+  padding: 0 30px 0 30px;
+  border-radius: 30px;
+  margin:0 auto;
+  cursor: pointer;
+}
+
+#resultScreen {
+  border: 2px solid #2F432F;
+  border-radius: 6px;
+  background-color: #F1ECEB;
+  width: 750px;
+  margin: 40px auto;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+#finalResult {
+  border-bottom: 2px solid #2F432F;
+  background-color: #627962;
+  color: #F1ECEB;
+  margin: 0 0 28px 0;
+  padding: 12px 0;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+}
+
+#scoreText {
+  border: 2px solid #2F432F;
+  background-color: #ffffff;
+  color: #2F432F;
+  border-radius: 6px;
+  font-size: 32px;
+  text-align: center;
+  padding: 16px 24px;
+  margin: 0 40px 24px 40px;
+}
+
+#resultScreen p:not(#scoreText) {
+  margin: 0 45px 18px 45px;
+  line-height: 1.6;
+  word-break: auto-phrase;
+}
+
+#restartBtn {
+  background-color: #627962;
+  color: #F1ECEB;
+  font-family: "DotGothic16", sans-serif;
+  display: block;
+  font-size: 30px;
+  padding: 4px 36px;
+  border-radius: 30px;
+  margin: 30px auto 0 auto;
+  cursor: pointer;
+}
+
+#restartBtn:hover {
+  background-color: #3E533E;
+  color: #F1ECEB;
+  font-family: "DotGothic16", sans-serif;
+   transform: scale(1.05);
+  display: block;
+  font-size: 30px;
+  padding: 4px 36px;
+  border-radius: 30px;
+  margin: 30px auto 0 auto;
+  cursor: pointer;
+}
